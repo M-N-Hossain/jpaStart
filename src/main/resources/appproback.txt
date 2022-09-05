@@ -1,0 +1,13 @@
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/myStudent?serverTimezone=UTC
+spring.datasource.username=nayeem
+spring.datasource.password=1234
+
+spring.jpa.hibernate.ddl-auto=create-drop
+
+
+*H2*
+
+spring.h2.console.enabled=true
+
+url = http://localhost:8080/h2-console
+database url = jdbc:h2:mem:2746c708-52a2-4fbd-b791-87e3883ac557
